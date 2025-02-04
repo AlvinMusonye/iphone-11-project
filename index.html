@@ -4,13 +4,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iphone11 Webpage</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header class="bg:color-pink">
-        <div></div>
-
+    <header class="bg-white">
+        <nav class="flex justify-between items-center w-[100%] bg-gray-50 rounded-2xl fixed">
+            
+            <div class="md:static absolute bg-gray-50 md:min-h-fit min-h-[26vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-25 gap-8text-black-500 ">
+                   <img class="h-15 w-15 ml-5 " src="asssets/logo.png" alt="...">
+                <li class="hover:scale-120 duration-300 ease-in-out"><a href="index.html" class="hover:text-red-500">Home</a></li>
+                <li class="hover:scale-120 duration-300 ease-in-out"><a href="index.html" class="hover:text-red-500">Products</a></li>
+                <li class="hover:scale-120 duration-300 ease-in-out "><a href="accessories.html" class="hover:text-red-500">Accessories</a></li>
+                <li class="hover:scale-120 duration-300 ease-in-out"><a href="login.html" class="hover:text-red-500"><i class="fa-solid fa-user"></i></a></li>
+                <li class="hover:scale-120 duration-300 ease-in-out"><a href="#" class="hover:text-red-500"><i class="fa-solid fa-cart-plus"></i></a></li>
+                <li class="hover:scale-120 duration-300 ease-in-out"><a href="contact.html" class="hover:text-red-500 ">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class=" flex sm: ">
+                <button class=" sm:block hidden bg-red-500 text-white px-5 py-2 mr-20  rounded-full hover:scale-110 duration-300 ease-in-out"><a href="registration.html">Sign Up</a></button>
+            </div>
+        </nav>
     </header>
-    
+
+     <section class="bg-gray-50 min-h-screen  flex items-center justify-center">
+        <div class="bg-gray-50 flex  rounded-2xl shadow-2xl max-w-4xl p-12 ">
+            <div class=" sm:grid w-1/2 mt-20   ">
+                <h1 class="text-5xl ml-5 font-bold font-poppins hover:scale-110 duration-300 ease-out">Welcome to</h1>
+                <h1 class="text-6xl ml-5 font-bold  font-roboto text-red-500 hover:scale-110 duration-300 ease-out">Smart 11 </h1>
+                <h1 class="text-6xl ml-5 font-bold font-pacifico text-gray-500 hover:scale-110 duration-300 ease-out">Kenya</h1>
+               <div>
+               <a href="specs.html"> <button class="bg-red-500 ml-3 rounded-xl py-5 text-white hover:scale-110 duration-300 ease-out animate-bounce rounded-lg shadow px-25 mt-15 cursor-pointer">Buy Now</button></a>
+               </div>
+                
+            </div>
+            <div class=" sm:block hidden w-1/2  ">
+                <img  src="asssets/Loja de celular.jpeg" alt="">
+            </div>
+        </div>
+     </section>
+
+
+
+     <section class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Featured Products</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              
+
+               <div class="bg-white p-6 rounded-lg shadow-lg">
+              <img src="asssets/iPhone 11 Green.jpeg" alt="Product 2" class="w-full rounded-lg hover:scale-110 duration-300 ease-out ">
+              <h3 class="text-xl font-semibold mt-4">iPhone 11</h3>
+              <p class="text-gray-600 ">ksh 30,000</p>
+              <p class="text-gray-600">64gb</p>
+              <button class=" bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">
+                <a href="specs.html">Buy NOW</a>
+              </button>
+             </div>
+
+             <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="asssets/iPhone.jpeg" alt="Product 3" class="w-full rounded-lg mt-5 hover:scale-110 duration-300 ease-out">
+                <h3 class="text-xl font-semibold">iPhone 11</h3>
+                <p class="text-gray-600 ">ksh 35,000</p>
+                <p class="text-gray-600">64gb</p>
+                <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">
+                  <a href="specs.html">Buy NOW</a>
+                </button>
+               </div>
+
+               <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="asssets/dream gift.jpeg" alt="Product 3" class="w-full rounded-lg mt-10 hover:scale-110 duration-300 ease-out">
+                <h3 class="text-xl font-semibold mt-4">iPhone 11</h3>
+                <p class="text-gray-600">ksh 40,000</p>
+                <p class="text-gray-600">128gb</p>
+                <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">
+                  <a href="specs.html">Buy NOW</a>
+                </button>
+               </div>
+
+               <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="asssets/iPhone (1).jpeg" alt="Product 3" class="w-full rounded-lg mt-10 hover:scale-110 duration-300 ease-out">
+                <h3 class="text-xl font-semibold mt-4">iPhone 11 pro</h3>
+                <p class="text-gray-600">ksh 50,000</p>
+                <p class="text-gray-600">64gb</p>
+                <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">
+                  <a href="specs.html">Buy NOW</a>
+                </button>
+               </div>
+
+               <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="asssets/iPhone 11 Pro Max.jpeg" alt="Product 3" class="w-full rounded-lg mt-10 hover:scale-110 duration-300 ease-out">
+                <h3 class="text-xl font-semibold mt-4">iPhone 11 promax</h3>
+                <p class="text-gray-600">ksh 53,000</p>
+                <p class="text-gray-600">128gb</p>
+                <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">
+                  <a href="specs.html">Buy NOW</a>
+                </button>
+               </div>
+
+               <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="asssets/iPhone 11 Pro Max _ Apple.jpeg" alt="Product 3" class="w-full rounded-lg mt-10 hover:scale-110 duration-300 ease-out">
+                <h3 class="text-xl font-semibold mt-4">iPhone 11 promax</h3>
+                <p class="text-gray-600">ksh 60,000</p>
+                <p class="text-gray-600">256gb</p>
+                <button class="mt-3 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition">
+                  <a href="specs.html">Buy NOW</a>
+                </button>
+               </div>
+          
+          </div>
+        </div>
+      </section>
+
+
+      <section class="py-12 bg-gray-100 sm:w-full "></section>
+        <div class="container mx-auto text-center">
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 p-2">Why buy Iphone 11?</h1>
+        </div>
+        <ol type="1" class="m-6 text-xl text-gray-600">
+          <li>Powerful Apple A18 Pro Chip: Experience blazing-fast performance for demanding tasks like gaming, video editing, and multitasking.</li>
+          <li>Stunning Super Retina XR Display: Enjoy vibrant colors, deep blacks, and a high refresh rate for immersive visuals.</li>
+          <li>Advanced Camera System: Capture stunning photos and videos with improved low-light performance, enhanced zoom capabilities, and new cinematic modes.</li>
+          <li>Long-lasting Battery: Power through your day with a larger battery that delivers extended usage time.</li>
+          <li>iOS 18: Enjoy the latest features and updates from Apple’s intuitive operating system.</li>
+          <li>Future-Proof: Invest in a device that will receive software updates for years to come.</li>
+        </ol>
+        </section>
+
+      <section class="py-12 bg-gray-100 sm:w-full ">
+        <div class="container mx-auto text-center">
+          <h1 class="font-bold text-3xl text-3xl md:text-4xl font-bold text-gray-900 mb-4">Reviews</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="asssets/dream gift.jpeg" alt="Product 3" class="w-20 rounded-2xl mt-10 hover:scale-110 duration-300 ease-out">
+            <h3 class="text-xl font-semibold mt-4"><i class="fa-brands fa-facebook"></i> Charles Ithumbi</h3>
+            <p class="text-gray-600">The service and hospitality was great .I had a comfortable and easy moment as I purchased my phone . Thanks ♥️</p>
+           </div>
+
+           <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="asssets/Apple iPhone 11 Mockup - Free Download Images High Quality PNG, JPG - 49565.jpeg" alt="Product 3" class="w-20 rounded-2xl mt-10 hover:scale-110 duration-300 ease-out">
+            <h3 class="text-xl font-semibold mt-4"><i class="fa-solid fa-comments"></i> Grace Muhoro</h3>
+            <p class="text-gray-600">They have pr.. the best service in town I highly recommend.</p>
+           </div>
+
+
+           <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="asssets/Airpods pro 2.jpeg" alt="Product 3" class="w-20 rounded-2xl mt-10 hover:scale-110 duration-300 ease-out">
+            <h3 class="text-xl font-semibold mt-4"><i class="fa-brands fa-facebook"></i> Wahome Jeremy</h3>
+            <p class="text-gray-600">Great service</p>
+           </div>
+        </div>
+      </section>
+
+
+      <section class="bg-gray-100 py-12 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Us</h2>
+          <p class="text-gray-600 text-lg md:text-xl leading-relaxed">
+            Welcome to <span class="font-semibold text-gray-800">Smart 11</span>—your go-to store for premium Apple iPhone 11 models at unbeatable prices. We provide a seamless shopping experience with authentic products, competitive pricing, and exceptional customer service.
+          </p>
+          <p class="text-gray-600 text-lg md:text-xl mt-4">
+            Whether you're looking for a brand-new iPhone 11 or a certified pre-owned option, we have you covered. Our mission is to make the latest technology more accessible to everyone. 
+          </p>
+          <div class="mt-6">
+            <a href="contact.html" class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-medium transition-all">Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="bg-white py-12 px-6 md:px-12">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Stay Updated</h2>
+          <p class="text-gray-600 text-lg md:text-xl leading-relaxed mb-6">
+            Subscribe to our newsletter to receive the latest updates on iPhone 11 deals, new arrivals, and exclusive offers.
+          </p>
+          <form class="flex flex-col md:flex-row justify-center gap-4">
+            <input type="email" placeholder="Enter your email" class="px-4 py-3 w-full md:w-2/3 border border-gray-300 rounded-lg  focus:ring-red-500">
+            <button type="submit" class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg text-lg font-medium transition-all">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+
+      <footer class="bg-red-500 text-gray-300 py-8">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex flex-wrap justify-between">
+         
+            <div class="w-full sm:w-1/3 mb-6">
+              <h2 class="text-2xl font-semibold text-white">smart11hub</h2>
+              <p class="mt-2">created by Alvinjr</p>
+            </div>
+
+            <div class="w-full sm:w-1/3 mb-6">
+              <h3 class="text-xl font-semibold text-white">Quick Links</h3>
+              <ul class="mt-2 space-y-2">
+                <li><a href="index.html" class="hover:text-white">Home</a></li>
+                <li><a href="#" class="hover:text-white">About Us</a></li>
+                <li><a href="#" class="hover:text-white">Portfolio</a></li>
+                <li><a href="specs.html" class="hover:text-white">Services</a></li>
+                <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+              </ul>
+            </div>
+          
+            <div class="w-full sm:w-1/3 mb-6">
+              <h3 class="text-xl font-semibold text-white">Follow Us</h3>
+              <div class="flex mt-2 space-x-4">
+                <a href="https://www.facebook.com/login.php/" class="hover:text-white" aria-label="Facebook">
+                  <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://x.com/i/flow/login?lang=en" class="hover:text-white" aria-label="Twitter">
+                  <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://ke.linkedin.com/" class="hover:text-white" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" class="hover:text-white" aria-label="Instagram">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.tiktok.com/foryou?lang=en" class="hover:text-white" aria-label="TikTok">
+                  <i class="fab fa-tiktok fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 text-center text-white-500">
+            &copy; 2025 smart11hub. All rights reserved.
+          </div>
+        </div>
+      </footer>
+      
+
+
+
+
+
+
+
 </body>
 </html>

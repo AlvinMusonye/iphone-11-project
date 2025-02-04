@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+  <header class="bg-white">
+    <nav class="flex justify-between items-center w-[100%] bg-gray-50 rounded-2xl fixed">
+        
+        <div class="md:static absolute bg-gray-50 md:min-h-fit min-h-[26vh] left-0 top-[9%] md:w-auto w-full flex items-center px-5">
+            <ul class="flex md:flex-row flex-col md:items-center md:gap-25 gap-8text-black-500 ">
+                <img class="h-15 w-15 ml-5 " src="asssets/logo.png" alt="...">
+            <li class="hover:scale-120 duration-300 ease-in-out"><a href="index.html" class="hover:text-red-500">Home</a></li>
+            <li class="hover:scale-120 duration-300 ease-in-out"><a href="index.html" class="hover:text-red-500">Products</a></li>
+            <li class="hover:scale-120 duration-300 ease-in-out "><a href="accessories.html" class="hover:text-red-500">Accessories</a></li>
+            <li class="hover:scale-120 duration-300 ease-in-out"><a href="login.html" class="hover:text-red-500"><i class="fa-solid fa-user"></i></a></li>
+            <li class="hover:scale-120 duration-300 ease-in-out"><a href="#" class="hover:text-red-500"><i class="fa-solid fa-cart-plus"></i></a></li>
+            <li class="hover:scale-120 duration-300 ease-in-out"><a href="contact.html" class="hover:text-red-500 ">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class=" flex sm: ">
+            <button class=" sm:block hidden bg-red-500 text-white px-5 py-2 mr-20  rounded-full hover:scale-110 duration-300 ease-in-out"><a href="registration.html">Sign Up</a></button>
+        </div>
+    </nav>
+</header>
+    <section class="bg-gray-50 min-h-screen flex items-center justify-center">
+       
+        <div class="bg-gray-100 rounded-2xl flex shadow-2xl max-w-3xl p-5 it mt-15">
+           
+            
+            <div class="sm:w-1/2 px-16 ">
+                <h1 class="font-bold text-2xl text-red-500 ">Login</h1>
+                <p class="text-sm mt-4 text-red-400">If you are already a member,easily log in</p>
+
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 mt-8 border rounded-xl" type="text" name="email" placeholder="Enter Email">
+                    <div class="relative">
+                        <input class="p-2  border rounded-xl w-full " type="email" name="password" placeholder="Enter password">
+                        <i class="fa-regular fa-eye absolute top-1/4 right-3"></i>
+                        
+                    </div>
+     
+                    <button class="bg-red-600 rounded-xl py-2 hover:scale-110 duration-300  text-white  animate-bounce">Login In</button>
+                    <p>Dont have an Account?<a href="registration.html" class="underline text-red-500">Sign up</a></p>
+                </form>
+                <div class="mt-10 grid grid-cols-3 items-center text-gray-400">
+                    <hr class="border-gray-400">
+                    <p class="text-center text-black font-bold">OR</p>
+                    <hr class="border-gray-400">
+                </div>
+                <button class="bg-white  border border-red-400 hover:bg-red-600 py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-110 duration-300  animate-bounce"> <i class="fa-brands fa-google mx-2"></i>Login with Google</button>
+                <p class="mt-10 text-xs border-b py-4 text-center"><a href="#">Forgot your password?</a></p>
+                </div>
+
+            
+            <div class="sm:block hidden w-1/2 ">
+                <img class=" rounded-2xl " src="asssets/_ (4).jpeg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="bg-red-500 text-gray-300 py-8">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex flex-wrap justify-between">
+         
+            <div class="w-full sm:w-1/3 mb-6">
+              <h2 class="text-2xl font-semibold text-white">smart11hub</h2>
+              <p class="mt-2">created by Alvinjr</p>
+            </div>
+
+            <div class="w-full sm:w-1/3 mb-6">
+              <h3 class="text-xl font-semibold text-white">Quick Links</h3>
+              <ul class="mt-2 space-y-2">
+                <li><a href="#" class="hover:text-white">Home</a></li>
+                <li><a href="#" class="hover:text-white">About Us</a></li>
+                <li><a href="#" class="hover:text-white">Portfolio</a></li>
+                <li><a href="#" class="hover:text-white">Services</a></li>
+                <li><a href="#" class="hover:text-white">Contact</a></li>
+              </ul>
+            </div>
+          
+            <div class="w-full sm:w-1/3 mb-6">
+              <h3 class="text-xl font-semibold text-white">Follow Us</h3>
+              <div class="flex mt-2 space-x-4">
+                <a href="https://www.facebook.com/login.php/" class="hover:text-white" aria-label="Facebook">
+                    <i class="fab fa-facebook fa-lg"></i>
+                  </a>
+                  <a href="https://x.com/i/flow/login?lang=en" class="hover:text-white" aria-label="Twitter">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                  <a href="https://ke.linkedin.com/" class="hover:text-white" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                  </a>
+                  <a href="https://www.instagram.com/accounts/login/?hl=en" class="hover:text-white" aria-label="Instagram">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                  <a href="https://www.tiktok.com/foryou?lang=en" class="hover:text-white" aria-label="TikTok">
+                    <i class="fab fa-tiktok fa-lg"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 text-center text-red-500">
+            &copy; 2025 smart11hub. All rights reserved.
+          </div>
+        </div>
+      </footer>
+    
+</body>
+</html>

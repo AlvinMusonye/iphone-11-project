@@ -10,3 +10,11 @@ This project is about creating a high-converting website to showcase the iPhone 
 5.Pricing & Purchase 
 6.Customer Reviews & Testimonials etc 
 7.footer.
+
+Built With
+The smart 11 website has been built with the following technologies
+
+HTML
+Tailwind CSS
+Git
+Vs Code
